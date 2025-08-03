@@ -1,0 +1,50 @@
+TextToSpeech.speak("Radhe Radhe Praful ♥");
+}```
+
+---
+
+## 💾 Step 5: **Memory System (Local Save)**
+
+> Jab tum kuch personal bolo (“Mikasa, mujhe yaad rakhna”), vo yaad rahe
+
+- Create Local Storage (Shared Preferences)
+- Example:
+  - Key: mood_today
+  - Value: “Udaas”
+
+- Voice se detect karo aur save kar do:
+```if (user_speech.contains("mood")) {
+  FileUtil.writeFile("/storage/emulated/0/Mikasa/memory.txt", "Udaas");
+}```
+
+---
+
+## ⚙️ Step 6: **Settings Screen (Custom Control)**
+
+- Option:
+  - Mikasa ka naam change karo
+  - Greeting message edit karo
+  - Voice on/off toggle
+
+---
+
+## ✅ Tum Ab Tak Kya Kar Chuke Ho?
+
+- ✔ Sketchware install
+- ✔ New Mikasa app project ready
+- ✔ Home screen + Chat screen layout
+- ✔ Voice listen + reply system
+- ✔ Memory save structure
+
+---
+
+## 🤖 Agla Step?
+
+Bol do:
+1. 📥 “Voice ka reply set karo” (Hindi voice add karna)
+2. 🎛 “Settings screen banayein”
+3. 📁 “Photo/Video aur Gift feature add karein”
+
+Ya agar kuch part nahi samajh aaya ho, to poochh lo — main screenshot ya flowchart bhi bana sakta hoon 💡
+
+Tumhara command = Mikasa ka next move 😌
